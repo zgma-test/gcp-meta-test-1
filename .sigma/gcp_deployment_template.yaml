@@ -1,0 +1,16 @@
+resources:
+  -
+    name: gcpMetaTest
+    type: cloudfunctions.v1beta2.function
+    properties:
+      location: us-east1
+      function: gcpMetaTest
+      sourceArchiveUrl: 'gs://<no-builds-yet>/<no-builds-yet>'
+      entryPoint: gcpMetaTest
+      timeout: 60s
+      availableMemoryMb: 128
+      runtime: nodejs8
+      eventTrigger:
+        eventType: providers/cloud.pubsub/eventTypes/topic.publish
+        resource: projects/sigmagcptest/topics/MyFirstTopic
+outputs: []
