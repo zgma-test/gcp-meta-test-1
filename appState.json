@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "gcp-meta-test.js",
         "cursor": {
-          "lineNumber": 4,
-          "column": 2
+          "lineNumber": 3,
+          "column": 49
         },
         "config": {
           "runtime": "nodejs8",
@@ -27,7 +27,8 @@
             "resourceName": "pubsubMyFirstTopic",
             "config": {}
           }
-        ]
+        ],
+        "lastUpdated": 1599732263122
       },
       "bf4b2d7c-8fe2-4ff5-a334-c26d76ee1dfa": {
         "id": "bf4b2d7c-8fe2-4ff5-a334-c26d76ee1dfa",
@@ -73,9 +74,9 @@
       }
     },
     "customTemplate": {
-      "syntax": "YAML",
+      "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "Deployment Manager",
       "definitions": null
     },
     "envVariables": [],
@@ -84,6 +85,7 @@
     }
   },
   "PROJECT_META": {
+    "sigmaVersion": "1.4.3",
     "projectName": "gcp-meta-test",
     "projectDescription": "",
     "projectVersion": "1.0.0",
@@ -91,8 +93,7 @@
     "platform": "GCP",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1591957725406,
-    "sigmaVersion": "1.3.27"
+    "lastSave": 1599732512375
   },
   "VCS_STATE": {
     "provider": "GitHub",
